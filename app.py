@@ -39,7 +39,7 @@ models = {'Linear Regression':model_lr, 'Ridge Model': model_ridge, 'Elastic Net
 
 
 
-selected_models= st.selectbox('Select teh models',('Linear Regression', 'Ridge', 'Elastic Net'))
+selected_models= st.selectbox('Select teh models',('Linear Regression', 'Ridge Model', 'Elastic Net'))
 
 # Prediction
 if st.button('Predict'):
